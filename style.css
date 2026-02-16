@@ -1,0 +1,90 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ff;
+}
+
+/* HEADER */
+header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* MENU */
+nav {
+    background-color: #0088cc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* NỘI DUNG */
+main {
+    width: 85%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ẢNH — không quá to nhưng vẫn rõ */
+img {
+    width: 70%;        /* chỉnh nhỏ lại */
+    max-width: 500px;  /* không vượt quá 500px */
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* CĂN GIỮA TOÀN BỘ NỘI DUNG */
+main {
+    text-align: center;
+}
+
+/* Danh sách thành tựu căn giữa */
+ul {
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left; /* để dấu chấm không bị lệch */
+}
+
+/* Video căn giữa */
+video {
+    width: 80%;
+    max-width: 700px;
+    margin: 15px auto;
+    display: block;
+}
+
+/* Audio căn giữa */
+audio {
+    margin: 10px auto;
+    display: block;
+}
